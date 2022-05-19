@@ -3,7 +3,7 @@ Bash utility to work with different variable contexts
 Safely sets a environment or not variable to a value then runs a command 
 and then restores the variable to its original value
 
-#### ⚠️ Warning: work in progress there has been a problem with the restore of the variable if PATH is changed in the command
+#### ⚠️ Warning: work in progress there has been a problem with the restore of the variable if PATH is changed with this
 
 ### Usage:
   ```With varname value command```
