@@ -17,10 +17,10 @@ and then restores the variable to its original value
 
 ```
 function Foo() {
-   echo "$ENV_VAR"
+   echo "$ENV_VAR"          //ENV_VAR_GLOBAL_VALUE
  }
 
- With ENV_VAR "/foo/bin" Foo
+ With ENV_VAR "CUSTOM_VALUE" Foo    //CUSTOM_VALUE
 ```
 
 
